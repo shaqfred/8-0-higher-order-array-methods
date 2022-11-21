@@ -32,7 +32,7 @@ function printAllSongTitles(songs) {
 function printSongDetails(songs) {
 
   for(let song of songs){
-    songs.forEach(_printSongDetails => comsole.log(`${song.title} by ${song.artist}`))
+    songs.forEach(_printSongDetails => console.log(`${song.title} by ${song.artist}`))
   }
 }
 
