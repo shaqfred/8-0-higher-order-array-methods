@@ -17,7 +17,7 @@ function getSongTitles(songs) {
 
   let songTitles = [];
   songTitles = songs.map((song)=>{
-    return song.titles
+    return song.title
   })
   return songTitles;
 }

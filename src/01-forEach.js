@@ -15,7 +15,7 @@ const exampleSongData = require("../data/songs");
 function printAllSongTitles(songs) {
 
   for(let song of songs){
-    songs.forEach(_printAllSongTitles => comsole.log(`${song.title}`))
+    songs.forEach(_printAllSongTitles => console.log(`${song.title}`))
   }
 }
 
@@ -42,9 +42,9 @@ function printSongDetails(songs) {
  */
 function printSongTitlesOverThreeMinutes(songs) {
   
-  for(let song of songs){
-    if (song.runTimeInSeconds > 180){
-songs.forEach(_printSongTitlesOverThreeMinutes => console.log (`${song.title}`))
+  for(let _song of songs){
+    if (_song.runTimeInSeconds > 180){
+songs.forEach(_printSongTitlesOverThreeMinutes => console.log(`${_song.title} `))
 
     }
   }
